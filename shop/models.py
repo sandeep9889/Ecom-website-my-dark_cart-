@@ -4,7 +4,7 @@ from django.db import models
 
 class product(models.Model):
     
-    product_id = models.AutoField
+    product_id = models.AutoField #and herer also
     product_name = models.CharField(max_length=50)
     desc = models.CharField(max_length=300, blank=True, null=True, )
      #herer we can put true for blank and null because vo push rha h ki age khali h usko empty rakhana h ki nahi kyu ki mene usko fill nahi kkra tha baad m
